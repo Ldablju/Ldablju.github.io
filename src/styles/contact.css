@@ -1,0 +1,64 @@
+.contact {
+    width: 50%;
+    height: 100%;
+}
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-name {
+    width: 50%;
+    height: 15vh;
+}
+.contact-phone {
+    width: 50%;
+    height: 15vh;
+}
+input {
+    padding: 15px;
+}
+.contact-content {
+    width: 100%;
+    height: 50vh;
+}
+.contact-content textarea {
+    width: 74%;
+    height: 70%;
+    padding: 10px;
+    font-family: 'Samsung Sharp Sans Regular';
+}
+.contact-send input {
+    background-color: #eb5f02;
+    border: none;
+    padding: 10px 25px;
+    color: white;
+    font-size: 1.2rem;
+}
+.contact-send input:hover {
+    cursor: pointer;
+    background-color: rgb(37, 37, 54)
+
+}
+.errors {
+    position: absolute;
+    top:26%;
+    right: 7%;
+    color: red;
+    z-index: 1;
+}
+.post {
+    z-index: 1;
+    position: absolute;
+    width: 0%;
+    height: 0vh;
+    background-image: url('../images/send.gif');
+    background-size: 100% 100%;
+    transition: width 2s, height 2s;
+    border-radius: 50px;
+}
+.post h2 {
+    margin-top: 10%;
+    display: none;
+    color: green;
+}

@@ -1,0 +1,151 @@
+@keyframes logo {
+  0% {
+    border:1px solid transparent;
+  }
+  50% {
+    border: 1px solid white
+  }
+  100% {
+    border:1px solid transparent;
+  }
+}
+@keyframes tlo {
+  0% {
+    background-color: black;
+    width: 0;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+
+
+
+.App {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  background-image: linear-gradient(#000000b2, #000000d7), url('./images/tlo.jpg');
+  background-size: 100% 100%;
+  font-family:'Samsung Sharp Sans Regular';
+}
+
+/* APP NAVIGATION  -=START=-  */
+.App-nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+.App-nav-logo {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App-nav-logo h1 {
+  color: #eb5f02;
+  text-shadow: 2px 2px 10px #000000;
+  padding: 0px 5px;
+  font-size: 2rem;
+  border: 1px solid transparent;
+}
+.App-nav-logo h1:hover {
+  animation: logo 3s infinite;
+  cursor: pointer;
+}
+.App-nav-logo h1 span {
+  color: white;
+}
+.App-nav-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.social-btn {
+  font-size: 2rem;
+  margin-right: 2.5%;
+  color: white;
+}
+.social-btn:hover {
+  cursor: pointer;
+  color: #eb5f02;
+  text-shadow: 2px 2px 7px black;
+}
+
+/* APP MENU  -=START=-  */
+.App-content {
+  padding: 0px 50px;
+  height: 90vh;
+  background-color: rgb(226, 233, 238);
+  background-size: 100% 100%;
+}
+.App-content-menu {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  padding-top: 5vh;
+}
+.menu {
+  padding: 10px 15px;
+}
+.menu:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+.active {
+  color: #eb5f02;
+  border-bottom: 1px solid #eb5f02;
+}
+.App-content-route {
+  height: 75vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .App-nav-logo h1 {
+    font-size: 0.5rem;
+  }
+  .App-content {
+    padding: 0px;
+    height: 100%;
+    background-color: rgb(226, 233, 238);
+    background-size: 100% 100%;
+  }
+  .App-content-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu {
+    padding: 2px 5px;
+  }
+  .social-btn {
+    font-size: 1rem;
+    margin-right: 2.5%;
+    color: white;
+  }
+}
+.route- {
+  height: 100%;
+  width: 100%;
+  background-image: url('./images/tlo2.png');
+  background-size: 100% 100%;
+  display: gird;
+  justify-content: center;
+  align-items: center;
+}
+.route- h1 {
+  padding-top: 10%;
+}
+.route-more {
+  padding-top: 5%;
+}
