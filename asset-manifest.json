@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d1132d2f.chunk.css",
+    "main.js": "/static/js/main.32841d9b.chunk.js",
+    "main.js.map": "/static/js/main.32841d9b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cd8c90c0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cd8c90c0.js.map",
+    "static/js/2.c2bbe469.chunk.js": "/static/js/2.c2bbe469.chunk.js",
+    "static/js/2.c2bbe469.chunk.js.map": "/static/js/2.c2bbe469.chunk.js.map",
+    "static/js/3.f847bc10.chunk.js": "/static/js/3.f847bc10.chunk.js",
+    "static/js/3.f847bc10.chunk.js.map": "/static/js/3.f847bc10.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.d1132d2f.chunk.css.map": "/static/css/main.d1132d2f.chunk.css.map",
+    "static/js/2.c2bbe469.chunk.js.LICENSE.txt": "/static/js/2.c2bbe469.chunk.js.LICENSE.txt",
+    "static/media/about.css": "/static/media/mern.39d4f786.png",
+    "static/media/analytics.5b97487e.svg": "/static/media/analytics.5b97487e.svg",
+    "static/media/back-1.cf93ed53.png": "/static/media/back-1.cf93ed53.png",
+    "static/media/back-2.a54b9f51.png": "/static/media/back-2.a54b9f51.png",
+    "static/media/back-3.dc1be1b6.png": "/static/media/back-3.dc1be1b6.png",
+    "static/media/briefing.bf41cb11.svg": "/static/media/briefing.bf41cb11.svg",
+    "static/media/front-1.a5e6706b.jpg": "/static/media/front-1.a5e6706b.jpg",
+    "static/media/front-2.c546b602.png": "/static/media/front-2.c546b602.png",
+    "static/media/front-3.747eed23.jpg": "/static/media/front-3.747eed23.jpg",
+    "static/media/idea.90c8e125.svg": "/static/media/idea.90c8e125.svg",
+    "static/media/home.css": "/static/media/pc.926ed8a5.png",
+    "static/media/index.css": "/static/media/samsungsharpsans.769f64ac.woff",
+    "static/media/contact.css": "/static/media/send.5f0b823c.gif",
+    "static/media/App.css": "/static/media/tlo2.c5c5433b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cd8c90c0.js",
+    "static/js/2.c2bbe469.chunk.js",
+    "static/css/main.d1132d2f.chunk.css",
+    "static/js/main.32841d9b.chunk.js"
+  ]
+}
